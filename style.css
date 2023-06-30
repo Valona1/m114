@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(231, 244, 252);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+  text-align: center;
+  margin-top: -150px;
+  margin-bottom: 50px;
+  justify-content: flex-start;
+  color: white;
+  z-index: 10000;
+}
+
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 95vh;
+  width: 100%;
+}
+
+.form-box {
+  width: 60%;
+  height: 650px;
+  background: rgb(236, 230, 230);
+  border: 3px solid rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-bottom: 35px solid rgb(0, 0, 0);
+  border-top: 80px solid rgb(0, 0, 0);
+}
