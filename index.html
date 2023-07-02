@@ -11,20 +11,24 @@
         <section>
             <div class="form-box">
                 <h1 class="title">Textverschlüsselung</h1>
+                <!-- Dark Mode / Light Mode-Button -->
+                <button class="mode-toggle" onclick="toggleDarkMode()">Dark</button>
                 <div class="inputbox">
                     <input type="text" id="inputText" required class="input-field" placeholder="Klartext:">
                 </div>
-                <button onclick="verschluesseln()">Verschlüsseln</button>
-                <div class="inputbox1">
-                    <input type="text" id="outputText" required class="input-field" placeholder="Verschlüsselter/Entschlüsselter Text:">
+                <div class="input-field">
+                    <input type="number" id="verschluesselnText" required class="input-field" placeholder="Verschiebung um">
                 </div>
-                <button onclick="entschluesseln()">Entschlüsseln</button>
-                <p id="errorMessage" style="color: red;"></p>
+                <button class="buttons1" onclick="verschluesseln()">Verschlüsseln</button>
+                <div class="inputbox1">
+                    <input type="text" id="outputText" required class="input-field"
+                        placeholder="Verschlüsselter/Entschlüsselter Text:">
+                </div>
+                <button class="buttons1" onclick="entschluesseln()">Entschlüsseln</button>
+                <p id="errorMessage"></p>
             </div>
         </section>
-        
-        
-        
+
     </body>
     
 
